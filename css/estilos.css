@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;     
+} 
+/*FONDOS*/
+.inicio{ 
+    background: url(/imagenes/allan.png) no-repeat 23% 23%;
+    background-size: cover; 
+}
+.autor{
+    background: url(/imagenes/knitting250px.png);   
+    font-family: 'Open Sans'; 
+}
+.fondo_cuento{
+    background: url(/imagenes/knitting250px.png); 
+    font-family: 'Open Sans';
+}
+/*MENU*/
+header{
+    width: 100%; 
+    margin: 0px auto;
+}
+header nav {
+    background: #51A39D; 
+    overflow: hidden;  
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center; 
+}
+
+header nav ul li {    
+    float: left; 
+}
+
+header nav ul li a {
+    padding: 14px 35px;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;  
+    font-weight: 400px;
+    font-family: 'Open Sans';
+}
+ header nav ul li a:hover{
+     background: #81BEF7;
+ }
+ /*IMAGENES*/
+ .imageninicio{
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin: auto; 
+}
+#bio{
+    width: 280px;
+    padding: 20px;
+    float: left;
+}
+/*PARRAFOS*/ 
+main article{ 
+    width: 60%;  
+    background: whitesmoke; 
+    margin: 0px auto; 
+    text-align: justify;     
+    padding: 0px;
+}
+p{
+    padding: 0px 20px 5PX 20px; 
+}
+p.comienzo{
+    text-align: right;
+    white-space: pre;
+    padding-bottom: 0px;
+} 
+ p.dialogo{  
+    white-space: pre-line; 
+}
+.inicio_t{
+    text-align: center;
+}
+/*TITULOS*/
+.titulo_autor{
+    width: 74%;
+    font-size: 35px;
+    margin: 0px auto; 
+    padding: 0px 10px 0px, 10px; 
+    text-align: center;     
+    color: #0A0A2A;
+    text-shadow: 2px 2px #0431B4;
+    background-color: whitesmoke;
+    font-family: 'Open Sans';
+}
+article h2, h3{
+     padding: 5px 5px 5px 20px ;
+ }
+.titulo_c{
+    margin: 0px auto;
+    text-align:  center;   
+    font-size: 30px;  
+}
+/*DIVISIONES*/
+.division{     
+    border-block-end: 5px  #06425C;
+    border-block-end-style: solid; 
+}   
+.lista{
+    padding: 10px 20px 10px 35px;
+}
+.lista p{
+    padding: 5px 20px 5px 0px;;
+}
+.lista h3{
+    padding: 0px;
+    margin: 0px;
+}
+/*PIE*/
+footer{  
+    width: 60%;
+    margin: 0px auto;
+    background: #1C1C1C;
+    color: white;   
+    padding: 1px 0px;
+    text-align: center;
+   
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url(/fuentes/OpenSans-Regular.ttf)
+}
+
+ 
+
